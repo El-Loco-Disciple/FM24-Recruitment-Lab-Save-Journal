@@ -1,0 +1,17 @@
+{
+  "name": "Career Journal",
+  "short_name": "Journal",
+  "description": "A season-by-season Football Manager journal. Part of Recruitment Lab. Runs in your browser and works offline.",
+  "start_url": "./journal.html",
+  "scope": "./",
+  "id": "./journal.html",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0D0E10",
+  "theme_color": "#0D0E10",
+  "icons": [
+    {"src": "icons/journal-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/journal-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/journal-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}

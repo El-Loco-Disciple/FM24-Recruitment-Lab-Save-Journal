@@ -1,0 +1,464 @@
+RECRUITMENT LAB TUTORIAL
+========================
+
+This tutorial takes you from a fresh download to a working recruitment
+department: exporting from Football Manager, setting up your club, finding a
+signing for your weakest position, and keeping track of players across a season.
+It takes about 30 minutes the first time, and about two minutes each time after
+that.
+
+Contents
+
+  1. What you need
+  2. Add the view to Football Manager
+  3. Export your first season
+  4. Import it into the Lab
+  5. Run the setup
+  6. Read your Home page
+  7. Find a signing with DoF picks
+  8. Study a player
+  9. Search the whole pool with Explore
+  10. Compare and plot
+  11. Run your shortlist
+  12. Tune your tactic and philosophy
+  13. Write a scouting report
+  14. The next window: re-import and track progress
+  15. Take it to your phone
+  16. Back up your work
+  17. Looking for a new job: Club finder
+  18. Several saves
+  19. How the numbers work
+  20. Troubleshooting
+
+--------------------------------------------------------------------------------
+
+1. WHAT YOU NEED
+----------------
+
+  - Football Manager 2024 (FM24) with a save in progress. The Lab is built and
+    tested with FM24 and uses its role list. Other versions are untested: FM26
+    reworked roles and tactics, so its exports and roles may not match.
+  - A browser: Chrome, Edge, Firefox or Safari on a computer. A phone works for
+    browsing and comparing once you've loaded a phone file (section 15).
+  - The Lab: the hosted link, or index.html from the download.
+  - The view file: views/My_Moneyball_View.fmf from the download. It's
+    essentially the free FM Data Lab view with one or two extra columns, and it
+    contains every column the Lab reads.
+
+2. ADD THE VIEW TO FOOTBALL MANAGER
+-----------------------------------
+
+A view tells FM which columns to show in a list. The Lab needs a specific set of
+columns, and the view sets them up in one go.
+
+  1. Close FM, or at least leave the Player Search screen.
+  2. Open FM's user folder:
+     - Windows: Documents\Sports Interactive\Football Manager 20XX
+     - Mac: ~/Documents/Sports Interactive/Football Manager 20XX
+  3. Open the views folder inside it. If there isn't one, create it.
+  4. Copy My_Moneyball_View.fmf into views.
+  5. In your save, go to Scouting → Players → Player Search.
+  6. Click the view menu at the top of the list (the icon that lets you pick a
+     view), choose Custom → Import View and pick the file.
+
+The view now appears under your custom views, and FM remembers it in every save.
+
+    | Using your own view? It must include at least Name, Position, Club,
+    | Division, Age and Mins. Anything else missing switches off the stats that
+    | need it, and the Leagues page tells you what's missing.
+
+3. EXPORT YOUR FIRST SEASON
+---------------------------
+
+The Lab works from one snapshot of your FM world: every player in Player Search,
+with their season stats.
+
+  1. In Player Search, select the view you imported.
+  2. Clear every filter (the search should cover all the leagues your save has
+     loaded). Make sure your own players are included: the Lab finds your squad
+     in the same export.
+  3. Click in the list and select every row: Ctrl+A (Windows) or Cmd+A (Mac).
+  4. Press Ctrl+P / Cmd+P to print the screen.
+  5. Choose Web Page, give the file a name such as 2025-26-may.html, and save it
+     somewhere easy to find.
+
+When to export: the end of each season (around May) gives the cleanest numbers.
+A January export is useful for the winter window, and section 14 shows how the
+two fit together.
+
+    | FM's stats are season-to-date. An export in October has a quarter of a
+    | season's minutes, so the Lab asks how far through the season you are and
+    | scales its thresholds to match.
+
+4. IMPORT IT INTO THE LAB
+-------------------------
+
+  1. Open the Lab. The first time, it shows Welcome to Recruitment Lab.
+  2. Click Import your first season (or Import season in the sidebar later on).
+  3. Save: leave it on New save and give it a name, for example the club you
+     manage.
+  4. Season: type the season as it appears in your save, written yyyy/yy (for
+     example 2031/32 if you're eight seasons in). Nothing is filled in for you,
+     so it works however far into your save you are. Use the same style every
+     time; seasons are ordered by this label.
+  5. FM player-search export: pick the .html file.
+  6. Season progress: the Lab reads the minutes in the file and suggests Full
+     season, Three-quarters, Half season or Quarter season. Change it if it's
+     wrong.
+  7. Click Import.
+
+A season of around 9,000 players takes a few seconds. Larger exports take
+longer.
+
+5. RUN THE SETUP
+----------------
+
+After the first import the Lab asks three things.
+
+  1. Your league and club. Pick your league, then your club. This is how the Lab
+     finds your squad, and it sets what stronger and weaker leagues mean.
+  2. Starting tactic. Create my own (name it, pick one of 16 formations and
+     choose the role for every position), or one of eleven starting points:
+     4-3-3 possession, 4-3-3 counter-press, 4-2-3-1 balanced, 3-5-2 possession,
+     4-4-2 direct, 4-2-3-1 gegenpress, 4-1-4-1 control, 3-4-3 wing-backs,
+     4-1-2-1-2 narrow diamond, 5-3-2 counter and 3-4-2-1. You can change it all
+     later in section 12.
+  3. How you want to play. One of nine play styles: Possession, Counter-press,
+     Direct, Balanced, Low block and counter, Wing play, Positional play,
+     High-intensity press and Physical. This sets the philosophy weights for
+     every role (section 12).
+
+Click Save and open Home. If you choose Later, Home shows a Run the setup
+button, and Settings has Run the setup again at any time.
+
+6. READ YOUR HOME PAGE
+----------------------
+
+Home is your recruitment overview, built around your tactic.
+
+  - Key numbers: your best XI's average role score against the median club in
+    your league, your weakest slot, your shortlist, contracts ending within a
+    year and the average age of your XI.
+  - Squad gaps: every slot in your tactic, your best player there, his score and
+    the gap to the league benchmark (the white tick). Red means below the median
+    club, green above. Click a slot to open DoF picks for it.
+  - DoF picks: ten suggestions for your weakest slot.
+  - Shortlist pipeline: how many players are at each stage, and your latest
+    moves.
+  - Contracts: your players whose contracts end soonest, with a bar chart of
+    contracts ending by year.
+  - Saved searches and Prospects to watch for the weakest slot.
+  - Data strip at the bottom: which season you're looking at, how much of it,
+    and a reminder if you haven't backed up recently.
+
+Click any player's name anywhere in the Lab to open his page.
+
+7. FIND A SIGNING WITH DOF PICKS
+--------------------------------
+
+Open DoF picks from the sidebar or from a slot on Home.
+
+  1. Role: the slot and role you're recruiting for. It defaults to your weakest
+     slot.
+  2. Transfer budget and max wage (in €M and €K a week). They're saved with your
+     save.
+  3. Read the five columns, two players each:
+     - Dream: the best score in a stronger league who fits your budget and
+       wouldn't refuse.
+     - Upgrade: at least 10 points better than your starter, aged 22 to 29,
+       costing up to half your budget.
+     - Value: the most score per €M, cheap and with enough minutes to trust.
+     - Squad player: rotation level, proven at your level or above.
+     - Prospect: 21 or under, ranked against players his age.
+  4. Each card shows his score in the role, the change on your starter, value,
+     wage, contract, his philosophy score and any flags (contract expiring,
+     mostly off the bench, big step down in level and so on).
+  5. More filters limits the board by age, how far above your league his club
+     is, confidence (minutes played) and contract length. Use it when the board
+     keeps offering a 34-year-old or a player in a league five levels above you.
+  6. The footnote names the best players left out and why: over budget, likely
+     to refuse, not for sale.
+
+Use ☆ Shortlist on a card to add him, Compare to line him up against others, or
+Open for his page. Add all to the shortlists adds the whole board.
+
+8. STUDY A PLAYER
+-----------------
+
+A player's page answers: is he good at what I need, and does he fit how I play?
+
+  - Assess as: the role you're judging him for. It starts on his best role in
+    your tactic. Change it and the whole page follows.
+  - Role score: 0 to 100, a weighted average of the role's key stats as
+    percentiles against players in his position.
+  - Philosophy: how well his numbers fit your six principles, weighted for this
+    role. Fits the idea is 70+, coachable 50 to 69, against the idea under 50.
+  - Character test: pass, neutral or fail, from his personality.
+  - Percentile profile: what the role needs, your philosophy principles, and
+    anything else that stands out, each with the raw number and the percentile.
+  - Summary: his strengths and weak spots in plain English, and Progress once
+    you've imported more than once (section 14).
+  - Role fit: his best roles with role and philosophy scores; click one to
+    assess him in it. Could retrain into lists roles he could learn (section
+    12).
+  - Pipeline and notes: add him to a list, move him through the stages, and
+    write notes. Notes go into the scouting report.
+  - Indices, with the change on last season, and Similar players.
+
+The copy icon next to his name copies it, ready to paste into FM's search.
+
+9. SEARCH THE WHOLE POOL WITH EXPLORE
+-------------------------------------
+
+Explore is where you go beyond the suggestions.
+
+  - Role search: pick a role. The chart plots its two key stats; the table ranks
+    everyone by role score. Narrow the pool with the filters: leagues, league
+    level, minimum minutes, age, value, wage, contract, height, foot, home-grown
+    status, nationality and more. Add a condition for any stat (for example
+    progressive passes per 90 at least 6).
+  - Only these positions: each role searches its own position plus any you've
+    added on the Philosophy score page. Players from an added position are
+    tagged Retrain.
+  - Profile search: describe a player as targets on the indices (ball security,
+    progression, pressing and so on). Must-haves are hard minimums;
+    nice-to-haves move players up.
+  - Prospects: young players doing well in limited minutes, scored against
+    players their age.
+  - Risers: the biggest improvers on last season (needs two seasons).
+  - Save this search keeps the filters. After each import, Home shows how many
+    new players match.
+  - The Raw numbers pill in the top bar can adjust attacking output for league
+    strength. Use it as a stress test: a player who stays near the top with it
+    on and off doesn't depend on the assumption.
+
+10. COMPARE AND PLOT
+--------------------
+
+Compare holds up to four players, always shown as A (blue), B (orange), C
+(green) and D (purple). Add them from any list, from a player page, or by typing
+a name. Pick the role lens and the comparison pool, then read the percentile
+lanes, pizza charts, role fit and where they sit against the pool. Export image
+saves it as a picture.
+
+Scatter plots any two stats, role scores or your own indices for a position
+group. Drag a box around a cluster to select those players, then add them to
+your shortlist or compare the top four. Build your own index from up to three
+stats.
+
+11. RUN YOUR SHORTLIST
+----------------------
+
+Each save has two lists: First team and Prospects.
+
+  - Move players through Watching → Scouted → Bid → Signed, or mark them
+    Rejected with a reason ("refused, wants Champions League").
+  - The role score column shows each player's best role or a role you choose,
+    and added at shows what he scored when you added him, with the change since.
+  - Shadow squad places your first-team shortlist into your tactic. Each player
+    goes to the slot where he scores best among the positions he can play; Move
+    puts him anywhere you like, and the Lab remembers it for that tactic. Gold
+    is your current starter. A slot where nobody on your list beats him links
+    straight to DoF picks. The strip at the top adds up the cost of the top pick
+    in each slot you'd upgrade.
+
+12. TUNE YOUR TACTIC AND PHILOSOPHY
+-----------------------------------
+
+Tactic & best XI
+
+  1. Pick a formation and a role for every slot. New tactic and Save tactic keep
+     as many as you like.
+  2. The pitch shows your best XI: each player used once, only in positions he's
+     listed at, picked to maximise the total score.
+  3. Move players: click a player on the pitch to choose who plays in that slot.
+     The list shows everyone in your squad with his score for that role, where
+     he plays now, and whether he'd be out of position. Pick a player from
+     another slot and the two swap places. Players you place get a pin and stay
+     put while the Lab fills the other slots around them. Reset to the best XI
+     clears your placements. They're kept for each tactic and carry through to
+     Home, DoF picks and the Shadow squad.
+  4. Benchmark compares each slot with the median club in your league, or with a
+     group of clubs you choose (Edit groups).
+
+Home, DoF picks, the Shadow squad and the Club finder all use the tactic you've
+chosen here.
+
+Philosophy score
+
+  1. The six principles each average a few stats. Add or remove stats with +
+     stat and ×.
+  2. Weights by role: click the dots. ●●● matters most, — isn't counted. A false
+     nine might weight keep the ball heavily and ignore defend on the front
+     foot.
+  3. Apply a template resets every role's weights to one of the nine play
+     styles. Restore the defaults goes back to the starting point.
+  4. Search positions: add positions a role should also search. A defensive
+     midfielder can make a good inverted wing-back; an attacking midfielder
+     might become a false nine. Those players then appear tagged Retrain.
+  5. Character test: choose whether players who fail are left out of DoF picks.
+
+Your philosophy is shared by every save on the device, because how you want to
+play usually stays the same when you change clubs.
+
+13. WRITE A SCOUTING REPORT
+---------------------------
+
+On a player's page, pick the role in Assess as, add your notes, then click
+Export report. The report fits one page: facts, the data verdict, percentile
+profile, where he sits against the pool, role fit, a comparison with your
+current player in that role, indices and your notes.
+
+Download the report saves it as a web page. Open it in your browser and print to
+PDF if you want a PDF.
+
+14. THE NEXT WINDOW: RE-IMPORT AND TRACK PROGRESS
+-------------------------------------------------
+
+When the next window comes round, export again from FM (same view, no filters)
+and import it.
+
+  - Same season again (for example a January export, then the May one, both
+    labelled 2031/32): the new import replaces the old one, so every page uses
+    the latest numbers. The earlier import is kept for progress tracking.
+  - A new season (2032/33): it's added alongside the old one, and Risers and the
+    ▲▼ arrows compare the two.
+
+After an import:
+
+  - Home shows Since your last import for players on your lists who moved club,
+    rose or fell by 5 or more in their role, whose contract now ends within a
+    year, or whose value changed by a quarter or more. Mark as seen clears it.
+  - Player pages show Progress: his score in the role you're assessing at each
+    import, for example 31/32 ½ 74 · 31/32 79 · 32/33 ½ 83. The first time,
+    click Show his … score across your imports to load the earlier ones.
+  - The shortlist shows what each player scored when you added him, and the
+    change since.
+  - Saved searches on Home show how many new players match.
+
+Settings shows how many earlier imports are kept, with Delete them if you need
+the space.
+
+15. TAKE IT TO YOUR PHONE
+-------------------------
+
+Your data lives on the device where you imported it, so a phone needs a copy.
+
+  1. On your computer, open Settings → Send to phone. It saves a smaller file
+     with your two latest seasons, shortlists, tactics and philosophy (around 5
+     MB for a season of 9,000 players).
+  2. Move the file to your phone: AirDrop, email it to yourself, a cloud drive,
+     or a message to yourself.
+  3. On your phone, open the Lab's link and choose Load a backup or phone file
+     (on the welcome screen, or in Settings).
+  4. Optional: add it to your home screen so it opens like an app. In Safari tap
+     Share → Add to Home Screen; on Android use the browser menu → Install app
+     or Add to Home screen.
+
+After each import on your computer, send it again. The phone recognises the save
+and offers to replace the old copy.
+
+The phone is best for browsing, comparing and checking your shortlist. Import
+and heavy filtering are easier on a computer.
+
+16. BACK UP YOUR WORK
+---------------------
+
+  - Settings → Download backup saves everything in the current save, including
+    earlier imports, as one .json file. Keep it somewhere safe.
+  - Home shows a reminder in the data strip when it's been more than two weeks.
+  - Load a backup or phone file restores it on any device. If the save is
+    already there, you can replace it or keep both.
+
+Your data is lost if you clear the browser's site data, uninstall the browser,
+or use a private window. A backup is the only way back.
+
+17. LOOKING FOR A NEW JOB: CLUB FINDER
+--------------------------------------
+
+The Club finder ranks every club by how ready its squad is for your football.
+
+  1. Pick the tactic you'd bring.
+  2. Each club gets its own best XI in that tactic, and a Foundation score: 45%
+     tactical fit, 35% philosophy, 20% depth (its second-best player in each
+     slot).
+  3. Filter by top 5 or top 10 leagues, region, league level, the most gaps
+     you'd accept (5 by default), what counts as a gap, XI age, and whether to
+     leave out your own club and league.
+  4. Presets: Ready now (few gaps), Project (good bones, a few signings),
+     Rebuild (lots to do).
+  5. Click a club to see its XI slot by slot, with gaps flagged.
+  6. Preview as this club shows Home, DoF picks and the Shadow squad as if you
+     managed there, with a budget estimated from its squad. Your save doesn't
+     change, and Back to your club in the bar at the top takes you back.
+
+Club finances, board expectations and whether the job is actually open aren't in
+the export, so check those in FM.
+
+18. SEVERAL SAVES
+-----------------
+
+Each save keeps its own seasons, shortlists, tactics, budget and settings, and
+its own badge. Switch saves from the club box at the top of the sidebar, or
+choose New save… there. Settings → Upload badge puts your club's badge in the
+sidebar. Your philosophy is shared by all of them.
+
+19. HOW THE NUMBERS WORK
+------------------------
+
+  - Percentiles compare a player with everyone in his position who played enough
+    minutes (900 for a full season, scaled for part-seasons, never below 600)
+    across all leagues in the export. 80 means ahead of 80% of them.
+  - Role scores are weighted averages of a role's key stats as percentiles. If
+    less than 60% of the weights can be measured, he gets no score rather than a
+    misleading one.
+  - Confidence bars: three at 2,000+ minutes, two at 1,200+, one below (scaled
+    for part-seasons).
+  - League levels come from FM's reputation stars for each league, compared with
+    yours. A score earned two levels below yours rarely travels intact.
+  - Likely to refuse means he plays in a stronger league than yours and has an
+    ambitious or driven personality. It's a rough guide, not the game's logic.
+  - The Guide inside the Lab has the full details: every calculated stat, data
+    quirks in FM's export, all 115 roles and deep dives on 31 of them.
+
+20. TROUBLESHOOTING
+-------------------
+
+  * "No Name column" on import
+      The file isn't a Player Search export saved as a web page. Print the list
+      again and choose Web Page.
+
+  * Your club isn't in the setup list
+      The export didn't include your league or your own players. Clear the
+      filters in FM and export again.
+
+  * A player has no role score
+      Too few minutes, or too many of the role's stats are missing (common in
+      leagues with limited data).
+
+  * Scores look too high in a small league
+      Use the league-level filters, and try the league adjustment pill in the
+      top bar.
+
+  * DoF picks keep suggesting players who won't come
+      Keep Leave out players likely to refuse on, and use More filters to limit
+      league level and age.
+
+  * Everything has disappeared
+      The browser's site data was cleared, or you're in a different browser or a
+      private window. Load your latest backup.
+
+  * Storage is full
+      Delete old seasons or earlier imports in Settings, or saves you no longer
+      use.
+
+  * No Install app button
+      Installing needs the hosted https link in Chrome or Edge. On iPhone use
+      Safari → Share → Add to Home Screen.
+
+--------------------------------------------------------------------------------
+
+Recruitment Lab is free and open source under the MIT licence. It's an
+unofficial fan-made tool, not affiliated with or endorsed by Sports Interactive
+or SEGA. The included view is essentially FM Data Lab's free view: please visit
+and support them.

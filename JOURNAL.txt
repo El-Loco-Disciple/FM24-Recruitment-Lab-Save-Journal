@@ -1,0 +1,255 @@
+CAREER JOURNAL
+==============
+
+The Career Journal is a season-by-season notebook for your Football Manager
+career. It comes in the Recruitment Lab download but works on its own: it
+doesn't need an FM export, and nothing you write leaves your browser.
+
+Open it with journal.html, from the link at the bottom of the Lab's sidebar or
+the Guide, or straight from the hosted address (for example
+https://your-username.github.io/recruitment-lab/journal.html).
+
+Contents
+
+  1. What it's for
+  2. Start a journal
+  3. Seasons
+  4. The sections
+  5. Tactic Ideas
+  6. Depth charts
+  7. Transfers Ledger
+  8. Season Review
+  9. Screenshots
+  10. Export a season
+  11. Manager photo and club badge
+  12. Backups, phones and laptops
+  13. Install it as an app
+  14. Troubleshooting
+
+--------------------------------------------------------------------------------
+
+1. WHAT IT'S FOR
+----------------
+
+Keeping the story of a save in one place: what you set out to do each season,
+the tactics you built, the transfer windows, who played where, what you changed
+when it went wrong and how the season ended. It follows the calendar of an FM
+season, from the summer window to the review and the plans for next year.
+
+2. START A JOURNAL
+------------------
+
+  1. Open journal.html and choose Start a journal.
+  2. Type the club you manage and your manager's name.
+  3. Type the season you're starting in, written yyyy/yy as it appears in your
+     save (for example 2031/32). Nothing is filled in for you, so it works
+     whether this is your first season or your tenth.
+  4. Pick your currency (€, £ or $) for the transfer ledger.
+  5. Optionally give the journal a name, then choose Start the journal.
+
+Start a separate journal for each career save. Switch between them from the club
+box at the top of the sidebar.
+
+3. SEASONS
+----------
+
+  - The seasons sit in the bar above the sections. Click one to open it.
+  - Start yyyy/yy begins the next season. Last season's Projected Depth Chart
+    becomes the new season's Depth Chart, and the season's tactic carries over.
+    Earlier seasons stay exactly as you left them.
+  - To add an earlier season, or delete one, open Settings → Seasons. Deleting a
+    season removes everything written in it, including its screenshots.
+
+4. THE SECTIONS
+---------------
+
+  * 01 Club Philosophy & Goals
+      Your identity as a manager. Shared by every journal.
+
+  * 02 Season Objective
+      The season's targets. Shown again in the Season Review.
+
+  * 03 Tactic Ideas
+      The tactics you build (section 5).
+
+  * 04 Youth Setup
+      Academy players and wonderkids, with prompts for role, who they replace
+      and the development plan.
+
+  * 05 Summer Transfer Planning
+      Targets and departures before the summer window.
+
+  * 06 Transfers Ledger
+      Completed deals and net spend (section 7).
+
+  * 07 Depth Chart
+      Three deep in every position of your tactic (section 6).
+
+  * 08 Pre-Season Performance Notes
+      Training, friendlies, fitness, new signings settling in.
+
+  * 09 August – January: Player Watch
+      Form, injuries, attitude, names to flag for January.
+
+  * 10 Tactical Assessment
+      What the system is actually doing before you change anything.
+
+  * 11 Tactical Adjustments
+      A text box: type the changes you've made, when, why and what happened.
+
+  * 12 January Transfer Planning
+      Gaps that have shown up since August.
+
+  * 13 February – Season End: Player Watch
+      The run-in, who has earned their place, contract conversations.
+
+  * 14 Season Review
+      How the season went (section 8).
+
+  * 15 Summer Scouting & Transfer Targets
+      Targets, contracts to watch, free agents, loan recalls.
+
+  * 16 Projected Depth Chart – Next Season
+      Next season's plan, signings and academy graduates included.
+
+Everything saves as you type. The dots in the index on the left fill in when a
+section has content, and the journal remembers which sections you keep open.
+
+5. TACTIC IDEAS
+---------------
+
+  1. Choose Create a tactic.
+  2. Give it a name and pick one of 16 formations.
+  3. Choose the role and duty for every position. The list is FM24's roles. A
+     small pitch shows the shape as you build it.
+  4. Add notes for in possession, out of possession, set pieces and anything
+     else.
+  5. Choose Use this season on the tactic you're playing this season. The depth
+     charts follow it.
+
+Tactics belong to the journal, so every season can use them. Duplicate copies a
+tactic so you can try a variation; Delete removes it from every season.
+
+6. DEPTH CHARTS
+---------------
+
+  - Every position of the tactic gets three rows: first choice, second and
+    third.
+  - Each row has a role (leave it blank to use the tactic's role) and a player.
+    Names you've typed before are suggested.
+  - The menu at the top lets a depth chart follow the season's tactic or a
+    different one.
+  - The Projected Depth Chart is next season's plan and becomes the next
+    season's depth chart when you start it.
+
+7. TRANSFERS LEDGER
+-------------------
+
+  - One row per completed deal: player, in or out, the other club and the fee.
+  - Fees can be written like 12M, 500K or 2.5m. Free transfers and loans count
+    as zero.
+  - Spent, received and net spend add up underneath. Change the currency in
+    Settings.
+
+8. SEASON REVIEW
+----------------
+
+  - Your Season Objective is shown at the top. Mark it achieved, partly achieved
+    or missed.
+  - Record the league position, points, cup runs, top scorer, most assists,
+    player and young player of the season, signing of the season and biggest
+    disappointment.
+  - The season in your words is for the story: what worked, what didn't, what
+    changes next season.
+
+9. SCREENSHOTS
+--------------
+
+  - Add screenshots at the bottom of any section, or click into a section and
+    paste one (Ctrl+V or Cmd+V).
+  - Tap a screenshot to see it full size, add a caption, change its type (Data
+    Hub, Tactics, Match, Player, Transfer, Training, Other) or move it to
+    another section.
+  - Gallery shows every screenshot of the season, filtered by type.
+  - Big images are shrunk when you add them so the journal doesn't fill your
+    browser's storage.
+
+10. EXPORT A SEASON
+-------------------
+
+Export season builds one page with everything written that season: objective,
+tactics with their pitches and notes, ledger, depth charts, review, notes and,
+if you tick the box, screenshots.
+
+  - Download the page saves it as a web page you can open on any device or
+    share.
+  - Print or save as PDF opens your browser's print window. Choose Save as PDF
+    there for a PDF.
+
+11. MANAGER PHOTO AND CLUB BADGE
+--------------------------------
+
+Open Settings, or tap your photo or the badge at the top of the journal.
+
+  - Upload photo sets the manager photo. It's shared by every journal on the
+    device, along with your manager name and Club Philosophy.
+  - Upload badge sets the club badge for this journal. It also appears in the
+    sidebar.
+  - Remove takes either one away.
+
+12. BACKUPS, PHONES AND LAPTOPS
+-------------------------------
+
+Your journal lives in the browser on the device where you write it. Clearing the
+browser's site data, or writing in a private window, loses it.
+
+  - Settings → Download backup saves the whole journal (every season, tactics,
+    screenshots, badge, photo and Club Philosophy) as one .json file.
+  - A reminder appears above the sections if you haven't backed up for two
+    weeks.
+  - To move between your laptop and your phone: download a backup on one, send
+    the file to the other (AirDrop, email, a cloud drive or a message to
+    yourself), open the journal there and choose Load a backup. If the journal
+    is already on that device, you can replace it or keep both.
+
+The journal and Recruitment Lab keep separate storage, so each has its own
+backup.
+
+13. INSTALL IT AS AN APP
+------------------------
+
+Open the journal from the hosted link (GitHub Pages), then:
+
+  - Chrome or Edge on a computer: Install app in the sidebar, or the install
+    icon in the address bar.
+  - Android: browser menu → Install app or Add to Home screen.
+  - iPhone or iPad: open it in Safari, tap Share, then Add to Home Screen.
+
+Installed, it opens full screen and works without a connection.
+
+14. TROUBLESHOOTING
+-------------------
+
+  * The sidebar says "Not being saved"
+      The browser is blocking storage, usually in a private window. Open the
+      journal in a normal window.
+
+  * Everything has disappeared
+      The browser's site data was cleared, or you're in a different browser or a
+      private window. Load your latest backup.
+
+  * The depth chart asks for a tactic
+      It lists a tactic's positions. Create one in Tactic Ideas.
+
+  * Pasting a screenshot does nothing
+      Click into a section first, then paste.
+
+  * Notes vanish on an iPhone
+      Safari may not keep notes for a page opened from the Files app. Use the
+      hosted link instead.
+
+--------------------------------------------------------------------------------
+
+The Career Journal is part of Recruitment Lab: free and open source under the
+MIT licence. It's an unofficial fan-made tool, not affiliated with or endorsed
+by Sports Interactive or SEGA.
